@@ -6,17 +6,6 @@ import FeedbackForm from './FeedbackForm';
 
 
 class Index extends Component {
-  componentDidMount()  {
-    axios.get('http://localhost:8000/api/feedback')
-    .then(res=>{
-      console.log(res)
-
-     })
-
-    }
-  
-  
-
   render () {
     return (
       <BrowserRouter>
